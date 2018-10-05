@@ -58,3 +58,41 @@ The instructions that follow should be in bullet point form with clear guidance 
 # Update this to something more informative.
 success_msg("Some praise! Then reinforce a learning objective from the exercise.")
 ```
+
+---
+
+## Jordan's test exercise
+
+```yaml
+type: NormalExercise
+key: f36db308fb
+xp: 100
+```
+
+This is a test exercise
+
+`@instructions`
+These are the instructions
+
+`@hint`
+This is hint
+
+`@pre_exercise_code`
+```{python}
+SELECT * FROM my_table WHERE name = 'John';
+```
+
+`@sample_code`
+```{python}
+
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
